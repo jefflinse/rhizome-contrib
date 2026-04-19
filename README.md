@@ -2,14 +2,12 @@
 
 Third-party component implementations for [rhizome](https://github.com/jefflinse/rhizome).
 
-> **Note**: This project is in early beta. While functional, the API is not yet stable and is not suitable for production use.
-
 ## Checkpoint Stores
 
 | Name | Description |
 |------|-------------|
-| [SQLite](./sqlite/checkpointstore) | Durable single-process store backed by [modernc.org/sqlite](https://pkg.go.dev/modernc.org/sqlite) (pure Go, no CGO). |
 | [Postgres](./postgres/checkpointstore) | Distributed store backed by [jackc/pgx/v5](https://pkg.go.dev/github.com/jackc/pgx/v5). |
+| [SQLite](./sqlite/checkpointstore) | Durable single-process store backed by [modernc.org/sqlite](https://pkg.go.dev/modernc.org/sqlite) (pure Go, no CGO). |
 
 ## Middleware
 
